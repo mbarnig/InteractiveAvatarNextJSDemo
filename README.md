@@ -7,8 +7,10 @@ This repo is a fork of the official HeyGen Interactive Avatar Demo.
 I did the following modifications :     
 ### /app/lib/constants
 I added the avatar_id "Marco Barnig" and the voice_ids "Marco Barnig" and "Marcos_digital_twin" to the selection list of available avatars and voices.   
+### /app/page.tsx
+I deleted the tabs "demo / code"
 ### /components/NavBar.tsx
-I changed the header text and deleted the links Avatars, Voices, API Docs, Guide and SDK.    
+I changed the header text and deleted the links Avatars, Voices, API Docs, Guide and SDK. 
 ### /components/InteractiveAvatar.tsx
 I added a password check in the "async function startSession".    
 ### Huggingface Spaces
