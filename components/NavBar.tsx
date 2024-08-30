@@ -29,7 +29,7 @@ export default function NavBar() {
             className="flex flex-row justify-center gap-1 text-foreground"
           >
             <GithubIcon className="text-default-500" />
-            SDK
+            Github
           </Link>
           <ThemeSwitch />
         </NavbarItem>
