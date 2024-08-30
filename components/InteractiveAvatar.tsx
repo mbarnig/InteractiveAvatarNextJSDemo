@@ -86,11 +86,11 @@ export default function InteractiveAvatar() {
     }
   }
 
-  async function checkPassword(): Promise<boolean> {
+  async function checkPassword() {
   try {
-    const SESSION_START_PASSWORD = process.env.REACT_APP_SESSION_START_PASSWORD;
-    console.log("secret password: ", SESSION_START_PASSWORD);
-    const password: string | null = prompt("Enter your personal password to start a session");
+    const pw = await fetch("/api/get-password") 
+    console.log("secret password: ", pw);
+    const password  = prompt("Enter your personal password to start a session");
 
     if (!password) {
       console.error("No password entered.");
@@ -98,11 +98,11 @@ export default function InteractiveAvatar() {
     }
 
     console.log("password entered: ", password);
-    const areTheSame = (password1: string | undefined, password2: string): boolean => {
+    const areTheSame = (password1: string, password2: string): boolean => {
       return password1 === password2;
     };
 
-    if (areTheSame(SESSION_START_PASSWORD, password)) {
+    if (areTheSame(pw, password)) {
       return true;
     } else {
       console.error("Passwords do not match.");
