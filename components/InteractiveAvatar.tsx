@@ -88,7 +88,7 @@ export default function InteractiveAvatar() {
 
   async function checkPassword() {
   try {
-    const pw = await fetch("/api/get-password") 
+    const pw = "abrakadabra";
     console.log("secret password: ", pw);
     const password  = prompt("Enter your personal password to start a session");
 
