@@ -1,6 +1,6 @@
 SESSION_START_PASSWORD = process.env.SESSION_START_PASSWORD;
 
-export async function () {
+export async function() {
   try {
     if (SESSION_START_PASSWORD) {
       return SESSION_START_PASSWORD
