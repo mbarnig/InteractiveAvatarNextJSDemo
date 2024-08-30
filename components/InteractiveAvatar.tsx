@@ -87,19 +87,31 @@ export default function InteractiveAvatar() {
   }
 
   async function checkPassword() {
-    try {
-      // const SESSION_START_PASSWORD = process.env.SESSION_START_PASSWORD;      
-      const password = prompt("Enter your personal password to start a session");
-      // const areTheSame = (SESSION_START_PASSWORD, password) => {
-      //  return text1 === text2;
-      //  };
-       return true;
-       } catch (error) {
-        console.error('Error validating password:', error);
-        setDebug("Error validating password.");
-        return false;
-       }     
-  };
+  try {
+    const SESSION_START_PASSWORD = process.env.REACT_APP_SESSION_START_PASSWORD;
+    const password = prompt("Enter your personal password to start a session");
+
+    if (!password) {
+      console.error("No password entered.");
+      return false;
+    }
+
+    const areTheSame = (password1, password2) => {
+      return password1 === password2;
+    };
+
+    if (areTheSame(SESSION_START_PASSWORD, password)) {
+      return true;
+    } else {
+      console.error("Passwords do not match.");
+      return false;
+    }
+  } catch (error) {
+    console.error('Error validating password:', error);
+    setDebug("Error validating password.");
+    return false;
+  }
+}
 
     async function startSession() {
      // Call the function to verify the password using HuggingFace secret
