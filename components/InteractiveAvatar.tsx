@@ -98,16 +98,13 @@ export default function InteractiveAvatar() {
     }
 
     console.log("password entered: ", password);
-    const areTheSame = (password1: string, password2: string): boolean => {
-      return password1 === password2;
-    };
 
-    if (areTheSame(pw, password)) {
+    if pw === password {
       return true;
     } else {
-      console.error("Passwords do not match.");
       return false;
     }
+    
   } catch (error) {
     console.error('Error validating password:', error);
     // Assuming setDebug is a function available in the context
