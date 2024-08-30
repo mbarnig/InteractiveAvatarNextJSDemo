@@ -7,7 +7,7 @@ import {
   NavbarContent,
   NavbarItem,
 } from "@nextui-org/react";
-import { GithubIcon, HeyGenLogo } from "./Icons";
+import { GithubIcon } from "./Icons";
 import { ThemeSwitch } from "./ThemeSwitch";
 
 export default function NavBar() {
