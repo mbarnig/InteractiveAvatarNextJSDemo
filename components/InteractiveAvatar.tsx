@@ -86,7 +86,16 @@ export default function InteractiveAvatar() {
     }
   }
 
-  async function startSession() {
+  async function checkPassword() {
+      constant SESSION_START_PASSWORD = process.env.SESSION_START_PASSWORD;      
+      const password=prompt("Enter your personal password to start a session");
+      const areTheSame = (SESSION_START_PASSWORD, password) => {
+        return text1 === text2;
+      };
+  };
+
+    async function startSession() {
+    await checkPassword();
     setIsLoadingSession(true);
     await updateToken();
     if (!avatar.current) {
