@@ -86,17 +86,17 @@ export default function InteractiveAvatar() {
     }
   }
 
-  async function checkPassword() {
+  async function checkPassword(): Promise<boolean> {
   try {
-    const SESSION_START_PASSWORD = process.env.REACT_APP_SESSION_START_PASSWORD;
-    const password = prompt("Enter your personal password to start a session");
+    const SESSION_START_PASSWORD: string | undefined = process.env.REACT_APP_SESSION_START_PASSWORD;
+    const password: string | null = prompt("Enter your personal password to start a session");
 
     if (!password) {
       console.error("No password entered.");
       return false;
     }
 
-    const areTheSame = (password1, password2) => {
+    const areTheSame = (password1: string | undefined, password2: string): boolean => {
       return password1 === password2;
     };
 
@@ -108,6 +108,7 @@ export default function InteractiveAvatar() {
     }
   } catch (error) {
     console.error('Error validating password:', error);
+    // Assuming setDebug is a function available in the context
     setDebug("Error validating password.");
     return false;
   }
