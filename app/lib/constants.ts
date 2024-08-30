@@ -2,7 +2,7 @@ export const AVATARS = [
   {
     avatar_id: "c780433d57414bb99188c8b3312247f4",
     name : "Marco Barnig"
-  }   
+  }, 
   {
     avatar_id: "Eric_public_pro2_20230608",
     name: "Edward in Blue Shirt",
@@ -41,7 +41,8 @@ export const VOICES = [
     name: "Marcos digital twin",
     support_pause: true,
     emotion_support: false,
-  },  {
+  },  
+  {
     voice_id: "077ab11b14f04ce0b49b5f6e5cc20979",
     language: "English",
     gender: "Male",
