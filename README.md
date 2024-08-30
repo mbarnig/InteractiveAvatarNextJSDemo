@@ -4,7 +4,9 @@ This repo is a fork of the official HeyGen Interactive Avatar Demo.
 
 ![HeyGen Interactive Avatar NextJS Demo Screenshot](./public/demo.png)
 
-I did the following modifications :     
+I did the following modifications :    
+### /package.json
+I added the prefix "PORT=7860" to the scripts dev, build and start 
 ### /app/lib/constants.ts
 I added the avatar_id "Marco Barnig" and the voice_ids "Marco Barnig" and "Marcos_digital_twin" to the selection list of available avatars and voices.   
 ### /app/page.tsx
