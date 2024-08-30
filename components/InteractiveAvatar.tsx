@@ -99,7 +99,7 @@ export default function InteractiveAvatar() {
 
     console.log("password entered: ", password);
 
-    if pw === password {
+    if (pw === password) {
       return true;
     } else {
       return false;
