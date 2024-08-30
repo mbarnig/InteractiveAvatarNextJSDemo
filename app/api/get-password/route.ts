@@ -5,4 +5,6 @@ export async function () {
     if (SESSION_START_PASSWORD) {
       return SESSION_START_PASSWORD
     }
-    console.error("API key is missing from .env");
+  catch (error) {
+    console.error("Password is missing from .env");
+  }
