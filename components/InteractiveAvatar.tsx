@@ -89,17 +89,18 @@ export default function InteractiveAvatar() {
   async function checkPassword() {
   try {
     console.log("Show secret : ", process.env.NEXT_PUBLIC_SESSION_START_PASSWORD);
-                
-    const password  = prompt("Enter your personal password to start a session");
+    const secret_password = process.env.NEXT_PUBLIC_SESSION_START_PASSWORD;  
+    
+    const entered_password  = prompt("Enter your personal password to start a session");
 
-    if (!password) {
+    if (!entered_password) {
       console.error("No password entered.");
       return false;
     }
 
-    console.log("password entered: ", password);
+    console.log("password entered: ", entered_password);
 
-    if ("abrakadabra" === password) {
+    if (entered_password === secret_password) {
       return true;
     } else {
       return false;
