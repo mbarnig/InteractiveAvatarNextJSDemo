@@ -88,8 +88,6 @@ export default function InteractiveAvatar() {
 
   async function checkPassword() {
   try {
-    // const pw = process.env.REACT_API_SESSION_START_PASSWORD;
-    // console.log("secret password: ", pw);
     const nextConfig = {
       env:{
         REACT_API_SESSION_START_PASSWORD: process.env.REACT_API_SESSION_START_PASSWORD
