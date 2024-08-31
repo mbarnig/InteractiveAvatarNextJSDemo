@@ -1,4 +1,4 @@
-timport { AVATARS, VOICES } from "@/app/lib/constants";
+import { AVATARS, VOICES } from "@/app/lib/constants";
 import {
   Configuration,
   NewSessionData,
