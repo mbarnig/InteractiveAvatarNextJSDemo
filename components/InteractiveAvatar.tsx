@@ -1,4 +1,4 @@
-import { AVATARS, VOICES } from "@/app/lib/constants";
+timport { AVATARS, VOICES } from "@/app/lib/constants";
 import {
   Configuration,
   NewSessionData,
@@ -93,7 +93,7 @@ export default function InteractiveAvatar() {
         REACT_API_SESSION_START_PASSWORD: process.env.REACT_API_SESSION_START_PASSWORD
       }
     }    
-    console.log(process.env.REACT_API_SESSION_START_PASSWORD);  
+    console.log(nextConfig);  
                 
     const password  = prompt("Enter your personal password to start a session");
 
