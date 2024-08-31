@@ -90,7 +90,12 @@ export default function InteractiveAvatar() {
   try {
     // const pw = process.env.REACT_API_SESSION_START_PASSWORD;
     // console.log("secret password: ", pw);
-    console.log({process.env.REACT_API_SESSION_START_PASSWORD});  
+    const nextConfig = {
+      env:{
+        REACT_API_SESSION_START_PASSWORD: process.env.REACT_API_SESSION_START_PASSWORD
+      }
+    }    
+    console.log(process.env.REACT_API_SESSION_START_PASSWORD);  
                 
     const password  = prompt("Enter your personal password to start a session");
 
