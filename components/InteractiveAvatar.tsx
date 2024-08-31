@@ -89,7 +89,7 @@ export default function InteractiveAvatar() {
   async function checkPassword() {
   try {
     const pw = process.env.REACT_API_SESSION_START_PASSWORD;
-    console.log("secret password: ", {pw});
+    console.log("secret password: ", pw);
     const password  = prompt("Enter your personal password to start a session");
 
     if (!password) {
