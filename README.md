@@ -39,11 +39,12 @@ https://github.com/user-attachments/assets/e18a6e13-4a50-4583-8678-261338c69f26
 
 
 Based on this modified fork of the InteractiveAvatarNextJSDemo, I created several customized Github repos and HuggingFace spaces for specific tasks :   
-#### TTA : Text_to_Avatar
+#### TTMA : Text_to_my_Avatar
+[Github Repo TTMA](https://github.com/mbarnig/Text_to_Avatar.git) 
+[Huggingface Space TTMA](https://huggingface.co/spaces/mbarnig/My_Interactive_Avatar)
+#### CWMA : Chat_with_my_Avatar
 Github Repo : Huggingface Space
-#### CWA : Chat_with_Avatar
-Github Repo : Huggingface Space
-#### SWA : Speak_with_Avatar
+#### SWMA : Speak_with_my_Avatar
 Github Repo : Huggingface Space
 #### BMMA : Braddel_mat_mengem_Avatar
 Github Repo : Huggingface Space
