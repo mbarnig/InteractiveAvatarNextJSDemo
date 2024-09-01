@@ -13,7 +13,7 @@ To do : add preview mp3 files of the voices.
 ### /app/page.tsx
 I deleted the tabs "demo / code".
 ### /components/NavBar.tsx
-I changed the header text and deleted the links Avatars, Voices, API Docs, Guide and SDK. 
+I changed the header text and deleted the links Avatars, Voices, API Docs, Guide and and replaced SDK with the link of this Github repo.
 ### /components/InteractiveAvatar.tsx
 I added a password check in the "async function startSession".    
 ### Huggingface Spaces
