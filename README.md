@@ -44,8 +44,8 @@ Based on this modified fork of the InteractiveAvatarNextJSDemo, I created severa
 [Huggingface Space TTMA](https://huggingface.co/spaces/mbarnig/Text_to_Avatar)   
 
 #### CWMA : Chat_with_my_Avatar
-[Github Repo CWMA :](https://github.com/mbarnig/Chat_with_Avatar.git)
-[Huggingface Space CWMA](https://huggingface.co/spaces/mbarnig/Chat_with_Avatar)
+[Github Repo CWMA :](https://github.com/mbarnig/Chat_with_Avatar.git)        
+[Huggingface Space CWMA](https://huggingface.co/spaces/mbarnig/Chat_with_Avatar)       
 
 #### SWMA : Speak_with_my_Avatar
 Github Repo : Huggingface Space
