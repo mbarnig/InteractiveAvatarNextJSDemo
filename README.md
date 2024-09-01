@@ -40,5 +40,5 @@ Github Repo : Huggingface Space
 #### DNMAE : Discuss_with_my_Alter_Ego
 Github Repo : Huggingface Space
 ### Bibliography
-* Marco Barnig, [LinkedIn Post](https://www.linkedin.com/posts/marco-barnig-b33074118_ai-generativeabrai-machineabrconsciousness-activity-7230217299767504896-Lh_g)
+* Marco Barnig, [I am an interactive Avatar](https://www.linkedin.com/posts/marco-barnig-b33074118_ai-generativeabrai-machineabrconsciousness-activity-7230217299767504896-Lh_g), LinkedIn August 2024
 * Carina González, [Environment variables Client Side with Next JS](https://medium.com/@ecarina.gonzalez/environment-variables-client-side-with-next-js-b09ad78f53bd), Medium January 2024
