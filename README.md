@@ -58,7 +58,7 @@ Use the microphone to speak with my Avatar in en, fr or de ; multilingual speech
 
 ## coming soon
 #### BMMA : Braddel mat mengem Avatar
-Use the microphone to speak with my Avatar in luxembourgish ; luxembourgish text and speech answer with my voice.  
+Use the microphone to chat with my Avatar in luxembourgish on OpenAI ; luxembourgish text and speech answer with my voice.  
 Github Repo :     
 Huggingface Space :     
 
