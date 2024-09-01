@@ -42,30 +42,37 @@ Based on this modified fork of the InteractiveAvatarNextJSDemo, I created severa
 ![hf_spaces](./public/hf_spaces.png)
 
 #### TTMA : Text to Avatar
+Multilingual speech synthesis with my voice: > 30 languages.       
 [Github Repo TTMA](https://github.com/mbarnig/Text_to_Avatar.git)      
 [Huggingface Space TTMA](https://huggingface.co/spaces/mbarnig/Text_to_Avatar)   
 
 #### CWMA : Chat with Avatar
+Chat with my interactive avatar on OpenAI in en, fr, de, lu ; multilingual speech answer with my voice.        
 [Github Repo CWMA](https://github.com/mbarnig/Chat_with_Avatar.git)        
 [Huggingface Space CWMA](https://huggingface.co/spaces/mbarnig/Chat_with_Avatar)       
 
 #### SWMA : Speak with Avatar
+Use the microphone to speak with my Avatar in en, fr or de ; multilingual speech answer with my voice.  
 [Github Repo SWMA](https://github.com/mbarnig/Speak_with_Avatar.git)     
 [Huggingface Space SMWA](https://huggingface.co/spaces/mbarnig/Speak_with_Avatar)     
 
-
-#### BMMA : Braddel_mat_mengem_Avatar
+## coming soon
+#### BMMA : Braddel mat mengem Avatar
+Use the microphone to speak with my Avatar in luxembourgish ; luxembourgish text and speech answer with my voice.  
 Github Repo :     
 Huggingface Space :     
 
-#### IMASQL : Interroge_mon_Avatar_sur_Qubit_Lëtzebuerg
+#### IMASQL : Interroge mon_Avatar sur Qubit Lëtzebuerg
+Use the microphone to ask my Avatar questions about my books "Qubit Lëtzebuerg" in french ; french text and speech answer with my voice. 
 Github Repo :     
 Huggingface Space :    
 
 #### DNMAE : Discuss_with_my_Alter_Ego
-Github Repo :    
+Use the microphone to ask my conscious Avatar questions in english about feelings, experience and ethics.
+Github Repo :     
 Huggingface Space :    
 
 ### Bibliography
 * Marco Barnig, [I am an interactive Avatar](https://www.linkedin.com/posts/marco-barnig-b33074118_ai-generativeabrai-machineabrconsciousness-activity-7230217299767504896-Lh_g), LinkedIn August 2024
+* Giulio Tononi, [Integrated Information Theory about Consciousness](http://integratedinformationtheory.org/)
 * Carina González, [Environment variables Client Side with Next JS](https://medium.com/@ecarina.gonzalez/environment-variables-client-side-with-next-js-b09ad78f53bd), Medium January 2024
