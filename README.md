@@ -50,16 +50,22 @@ Based on this modified fork of the InteractiveAvatarNextJSDemo, I created severa
 [Huggingface Space CWMA](https://huggingface.co/spaces/mbarnig/Chat_with_Avatar)       
 
 #### SWMA : Speak with Avatar
-[Github Repo SWMA](https://github.com/mbarnig/Speak_with_Avatar.git)
-[Huggingface Space SMWA](https://huggingface.co/spaces/mbarnig/Speak_with_Avatar)
+[Github Repo SWMA](https://github.com/mbarnig/Speak_with_Avatar.git)     
+[Huggingface Space SMWA](https://huggingface.co/spaces/mbarnig/Speak_with_Avatar)     
 
 
 #### BMMA : Braddel_mat_mengem_Avatar
-Github Repo : Huggingface Space
+Github Repo :     
+Huggingface Space :     
+
 #### IMASQL : Interroge_mon_Avatar_sur_Qubit_Lëtzebuerg
-Github Repo : Huggingface Space
+Github Repo :     
+Huggingface Space :    
+
 #### DNMAE : Discuss_with_my_Alter_Ego
-Github Repo : Huggingface Space
+Github Repo :    
+Huggingface Space :    
+
 ### Bibliography
 * Marco Barnig, [I am an interactive Avatar](https://www.linkedin.com/posts/marco-barnig-b33074118_ai-generativeabrai-machineabrconsciousness-activity-7230217299767504896-Lh_g), LinkedIn August 2024
 * Carina González, [Environment variables Client Side with Next JS](https://medium.com/@ecarina.gonzalez/environment-variables-client-side-with-next-js-b09ad78f53bd), Medium January 2024
