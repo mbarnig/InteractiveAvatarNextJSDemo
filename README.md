@@ -68,7 +68,7 @@ Github Repo :
 Huggingface Space :    
 
 #### DNMAE : Discuss_with_my_Alter_Ego
-Use the microphone to ask my conscious Avatar questions in english about feelings, experience and ethics.
+Use the microphone to ask my conscious Avatar questions in english about feelings, experience and ethics.    
 Github Repo :     
 Huggingface Space :    
 
