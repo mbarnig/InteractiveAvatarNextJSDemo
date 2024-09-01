@@ -88,13 +88,12 @@ export default function InteractiveAvatar() {
 
   async function checkPassword() {
   try {
-    console.log("Show secret : ", process.env.NEXT_PUBLIC_SESSION_START_PASSWORD);
     const secret_password = process.env.NEXT_PUBLIC_SESSION_START_PASSWORD;  
     
     const entered_password  = prompt("Enter your personal password to start a session");
 
     if (!entered_password) {
-      console.error("No password entered.");
+      setDebug("No password entered.");
       return false;
     }
 
@@ -144,9 +143,7 @@ export default function InteractiveAvatar() {
       setStream(avatar.current.mediaStream);
     } catch (error) {
       console.error("Error starting avatar session:", error);
-      setDebug(
-        `There was an error starting the session. ${voiceId ? "This custom voice ID may not be supported." : ""}`
-      );
+      setDebug("There was an error starting the session.");
     }
     setIsLoadingSession(false);
   }
