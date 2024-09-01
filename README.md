@@ -74,5 +74,5 @@ Huggingface Space :
 
 ### Bibliography
 * Marco Barnig, [I am an interactive Avatar](https://www.linkedin.com/posts/marco-barnig-b33074118_ai-generativeabrai-machineabrconsciousness-activity-7230217299767504896-Lh_g), LinkedIn August 2024
-* Giulio Tononi, [Integrated Information Theory about Consciousness](http://integratedinformationtheory.org/)
+* Giulio Tononi, [Integrated Information Theory about Consciousness](http://integratedinformationtheory.org/), University of Wisconsin–Madison, > 2004
 * Carina González, [Environment variables Client Side with Next JS](https://medium.com/@ecarina.gonzalez/environment-variables-client-side-with-next-js-b09ad78f53bd), Medium January 2024
