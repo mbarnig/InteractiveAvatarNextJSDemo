@@ -21,6 +21,7 @@ I created a HuggingFace space to make my personal Interactive Avatar available t
 ![HuggingFace space 1](./public/my-avatar-1.png)
 ![HuggingFace space 2](./public/my-avatar-2.png)
 ![HuggingFace space 3](./public/my-avatar-3.png)
+![HuggingFace space 8](./public/my-avatar-8.png)
 ![HuggingFace space 4](./public/my-avatar-4.png)
 ![HuggingFace space 5](./public/my-avatar-5.png)
 ![HuggingFace space 6](./public/my-avatar-6.png)
