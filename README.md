@@ -19,7 +19,12 @@ I added a password check in the "async function startSession".
 ### Huggingface Spaces
 I created a HuggingFace space to make my personal Interactive Avatar available to the public for tests.     
 ![HuggingFace space 1](./public/my-avatar-1.png)
-![HuggingFace space 7](./public/my-avatar-2.png)
+![HuggingFace space 2](./public/my-avatar-2.png)
+![HuggingFace space 3](./public/my-avatar-3.png)
+![HuggingFace space 4](./public/my-avatar-4.png)
+![HuggingFace space 5](./public/my-avatar-5.png)
+![HuggingFace space 6](./public/my-avatar-6.png)
+![HuggingFace space 7](./public/my-avatar-7.png)
 Here is the link to the demo : [hf-space](https://huggingface.co/spaces/mbarnig/My_Interactive_Avatar)     
 The start of the demo is protected by a personal password. Interested users can drop me a mail to request the password.
 ### /.env
