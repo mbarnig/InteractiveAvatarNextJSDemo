@@ -38,7 +38,8 @@ The interactive Avatar React app is running in a Docker container on HuggingFace
 https://github.com/user-attachments/assets/e18a6e13-4a50-4583-8678-261338c69f26
 
 
-Based on this modified fork of the InteractiveAvatarNextJSDemo, I created several customized Github repos and HuggingFace spaces for specific tasks :   
+Based on this modified fork of the InteractiveAvatarNextJSDemo, I created several customized Github repos and HuggingFace spaces for specific tasks :  
+![hf-spaces](./public/hf-spaces.png)
 #### TTMA : Text_to_my_Avatar
 [Github Repo TTMA](https://github.com/mbarnig/Text_to_Avatar.git)      
 [Huggingface Space TTMA](https://huggingface.co/spaces/mbarnig/Text_to_Avatar)   
