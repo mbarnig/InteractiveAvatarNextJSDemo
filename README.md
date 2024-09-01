@@ -24,7 +24,7 @@ The start of the demo is protected by a personal password. Interested users can 
 ### /.env
 I added the secret "NEXT_PUBLIC_SESSION_START_PASSWORD = your Session Start Password" to the environment file .env. The NEXT_PUBLIC prefix is required to handle the process in the frontend.
 ### Dockerfile
-The interactive Avatar React app is running in a Docker container on HuggingFace. The most difficult part of the Dockerfile creation was related to the protection of the different API keys and passwords needed to access my accounts on HeyGen, OpenAI, Dante, Schreifmaschinn, etc. It's not obvious to hide these variables in a frontend web app like React.
+The interactive Avatar React app is running in a Docker container on HuggingFace. The most difficult part of the Dockerfile creation was related to the protection of the different API keys and passwords needed to access my accounts on HeyGen, OpenAI, Dante, Schreifmaschinn, etc. It's not obvious to hide these variables in a frontend web app like React. The Dockerfile is not included in the present repo, but in the HuggingFace space.
 ### Customized versions
 Based on this modified fork of the InteractiveAvatarNextJSDemo I created several customized Github repos and HuggingFace spaces for specific tasks :   
 #### TTA : Text_to_Avatar
