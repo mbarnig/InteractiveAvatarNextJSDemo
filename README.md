@@ -63,17 +63,20 @@ The primary purpose of this customized version is to optimize the speech recogni
 #### BMMA : Braddel mat mengem Avatar
 Use the microphone to chat with my Avatar in luxembourgish on OpenAI ; luxembourgish text and speech answer with my voice.  
 Github Repo :     
-Huggingface Space :     
+Huggingface Space :    
+The primary purpose of this customized version is to integrate the schreifmaschinn.lu API for Luxembourgish speech recognition and optimize ChatGPT to deliver responses in accurate Luxembourgish. The main challenge lies in training a new voice with enhanced Luxembourgish TTS, ensuring compatibility with the HeyGen interactive Avatar.
 
 #### IMASQL : Interroge mon_Avatar sur Qubit Lëtzebuerg
 Use the microphone to ask my Avatar questions about my books "Qubit Lëtzebuerg" in french ; french text and speech answer with my voice. 
 Github Repo :     
-Huggingface Space :    
+Huggingface Space :     
+The primary purpose of this customized version is to fine-tune ChatGPT, or another large language model, with the content of the first volume of my book series "Qubit Lëtzebuerg," which chronicles the history of the introduction of new information and communication technologies in the Grand Duchy of Luxembourg. To focus on this specific challenge and streamline the application, questions will be entered in text form, without the use of speech recognition.
 
 #### DNMAE : Discuss_with_my_Alter_Ego
 Use the microphone to ask my conscious Avatar questions in english about feelings, experience and ethics.    
 Github Repo :     
 Huggingface Space :    
+The primary purpose of this advanced customized version is to explore the potential of emerging large language models (LLMs), including the early stages of machine consciousness. To create an optimal discussion environment with an Alter Ego, the application will be limited to the English language and will incorporate speech recognition.
 
 ### Bibliography
 * Marco Barnig, [I am an interactive Avatar](https://www.linkedin.com/posts/marco-barnig-b33074118_ai-generativeabrai-machineabrconsciousness-activity-7230217299767504896-Lh_g), LinkedIn August 2024
