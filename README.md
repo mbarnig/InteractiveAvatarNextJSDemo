@@ -44,19 +44,22 @@ Based on this modified fork of the InteractiveAvatarNextJSDemo, I created severa
 #### TTMA : Text to Avatar
 Multilingual speech synthesis with my voice: > 30 languages.       
 [Github Repo TTMA](https://github.com/mbarnig/Text_to_Avatar.git)      
-[Huggingface Space TTMA](https://huggingface.co/spaces/mbarnig/Text_to_Avatar)   
+[Huggingface Space TTMA](https://huggingface.co/spaces/mbarnig/Text_to_Avatar)     
+The primary goal of this customized version is to explore multilingual speech synthesis, integrating automatic language recognition with a cloned voice.
 
 #### CWMA : Chat with Avatar
 Chat with my interactive avatar on OpenAI in en, fr, de, lu ; multilingual speech answer with my voice.        
 [Github Repo CWMA](https://github.com/mbarnig/Chat_with_Avatar.git)        
-[Huggingface Space CWMA](https://huggingface.co/spaces/mbarnig/Chat_with_Avatar)       
+[Huggingface Space CWMA](https://huggingface.co/spaces/mbarnig/Chat_with_Avatar)   
+The primary purpose of this customized version is to define specific instructions and assign a particular role (such as engineer, journalist, scientist, salesperson, or teacher) to ChatGPT at initialization. This setup ensures that responses are short, concise, and optimized for quick vocal delivery.
 
 #### SWMA : Speak with Avatar
 Use the microphone to speak with my Avatar in en, fr or de ; multilingual speech answer with my voice.  
 [Github Repo SWMA](https://github.com/mbarnig/Speak_with_Avatar.git)     
-[Huggingface Space SMWA](https://huggingface.co/spaces/mbarnig/Speak_with_Avatar)     
+[Huggingface Space SMWA](https://huggingface.co/spaces/mbarnig/Speak_with_Avatar)    
+The primary purpose of this customized version is to optimize the speech recognition model to ensure accurate transcription in English, French, and German, while providing quick vocal delivery in the respective language.
 
-## coming soon
+## coming soon :   
 #### BMMA : Braddel mat mengem Avatar
 Use the microphone to chat with my Avatar in luxembourgish on OpenAI ; luxembourgish text and speech answer with my voice.  
 Github Repo :     
