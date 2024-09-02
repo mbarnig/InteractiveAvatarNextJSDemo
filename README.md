@@ -66,13 +66,13 @@ Github Repo :
 Huggingface Space :    
 The primary purpose of this customized version is to integrate the schreifmaschinn.lu API for Luxembourgish speech recognition and optimize ChatGPT to deliver responses in accurate Luxembourgish. The main challenge lies in training a new voice with enhanced Luxembourgish TTS, ensuring compatibility with the HeyGen interactive Avatar.
 
-#### IMASQL : Interroge mon_Avatar sur Qubit Lëtzebuerg
+#### IMASQL : Interroge mon Avatar sur Qubit Lëtzebuerg
 Use the microphone to ask my Avatar questions about my books "Qubit Lëtzebuerg" in french ; french text and speech answer with my voice. 
 Github Repo :     
 Huggingface Space :     
 The primary purpose of this customized version is to fine-tune ChatGPT, or another large language model, with the content of the first volume of my book series "Qubit Lëtzebuerg," which chronicles the history of the introduction of new information and communication technologies in the Grand Duchy of Luxembourg. To focus on this specific challenge and streamline the application, questions will be entered in text form, without the use of speech recognition.
 
-#### DNMAE : Discuss_with_my_Alter_Ego
+#### DNMAE : Discuss with my Alter Ego
 Use the microphone to ask my conscious Avatar questions in english about feelings, experience and ethics.    
 Github Repo :     
 Huggingface Space :    
