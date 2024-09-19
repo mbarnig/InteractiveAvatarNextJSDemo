@@ -1,6 +1,6 @@
 # HeyGen Interactive Avatar NextJS Demo
 
-This repo is a fork of the official HeyGen Interactive Avatar Demo.
+This repo is a fork of the official HeyGen Interactive Avatar Demo. It works only on desktop computers.
 
 ![HeyGen Interactive Avatar NextJS Demo Screenshot](./public/demo.png)
 
