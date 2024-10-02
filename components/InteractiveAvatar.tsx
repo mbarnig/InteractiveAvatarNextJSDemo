@@ -88,7 +88,8 @@ export default function InteractiveAvatar() {
 
   async function checkPassword() {
   try {
-    const secret_password = process.env.NEXT_PUBLIC_SESSION_START_PASSWORD;  
+    // const secret_password = process.env.NEXT_PUBLIC_SESSION_START_PASSWORD;  
+    const secret_passord = "HeiElei"
     
     const entered_password  = prompt("Enter your personal password to start a session");
 
